@@ -1,8 +1,6 @@
 const table = document.getElementById("sampleTable");
 function insert_Row() {
-    //Write your code here
-
-	let chid1 = table.firstChild;
+	let chid1 = table.getElementsByTagName('tr')[0];
 	let row = document.createElement("tr");
 	let col1 = document.createElement("td");
 	col1.innerText = "New Cell1";
